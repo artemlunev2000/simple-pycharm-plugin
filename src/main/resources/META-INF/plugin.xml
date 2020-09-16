@@ -1,0 +1,28 @@
+<idea-plugin>
+
+    <id>simple_plugin.my_plugin</id>
+
+    <name>python annotations</name>
+
+    <vendor>MyCompany</vendor>
+
+    <description>puts int annotation to a python variable</description>
+
+    <extensions defaultExtensionNs="com.intellij">
+
+    </extensions>
+
+    <depends>com.intellij.modules.lang</depends>
+
+    <depends>com.intellij.modules.python</depends>
+
+    <actions>
+        <action id="AddIntAnnotationAction"
+                class="AddIntAnnotationAction"
+                text="add int annotation"
+                description="adds int annotation">
+            <add-to-group group-id="EditorPopupMenu" anchor="first"/>
+        </action>
+    </actions>
+
+</idea-plugin>
