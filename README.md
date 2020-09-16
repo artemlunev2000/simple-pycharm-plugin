@@ -1,6 +1,8 @@
 # simple-pycharm-plugin
 
-when you click to a variable name with right mouse button you can choose "add int annotation" and this variable get int annotation.
+Description:
+
+When you click to a variable name with right mouse button you can choose "add int annotation" and this variable annotation become int.
 
 ## installation and running
 
